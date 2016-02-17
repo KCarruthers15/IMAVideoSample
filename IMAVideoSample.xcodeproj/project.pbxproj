@@ -15,6 +15,9 @@
 		96ED0CAC1C7495380008DE1C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96ED0CAA1C7495380008DE1C /* LaunchScreen.storyboard */; };
 		96ED0CB71C7495380008DE1C /* IMAVideoSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED0CB61C7495380008DE1C /* IMAVideoSampleTests.m */; };
 		96ED0CC21C7495380008DE1C /* IMAVideoSampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96ED0CC11C7495380008DE1C /* IMAVideoSampleUITests.m */; };
+		A01EE0143A406AD73465C821 /* libPods-IMAVideoSampleTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39571B9577ECBB402199D555 /* libPods-IMAVideoSampleTests.a */; };
+		B6905C98A380E887D0AD5CC2 /* libPods-IMAVideoSampleUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6917D92602D615BE4293A68D /* libPods-IMAVideoSampleUITests.a */; };
+		E81FAE69794F1D4E3752DA99 /* libPods-IMAVideoSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 58BA910124C09FD6DAFBAD56 /* libPods-IMAVideoSample.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BDEBF1DDC46969BAAF4DF97 /* Pods-IMAVideoSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSampleUITests/Pods-IMAVideoSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		39571B9577ECBB402199D555 /* libPods-IMAVideoSampleTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMAVideoSampleTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		58BA910124C09FD6DAFBAD56 /* libPods-IMAVideoSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMAVideoSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AF8C7058167C6CD172EB597 /* Pods-IMAVideoSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSampleTests/Pods-IMAVideoSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6917D92602D615BE4293A68D /* libPods-IMAVideoSampleUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMAVideoSampleUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7277ED09D43DF69643D61C3E /* Pods-IMAVideoSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSampleUITests/Pods-IMAVideoSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		96ED0C991C7495380008DE1C /* IMAVideoSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMAVideoSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED0C9D1C7495380008DE1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96ED0C9F1C7495380008DE1C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,9 @@
 		96ED0CBD1C7495380008DE1C /* IMAVideoSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IMAVideoSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96ED0CC11C7495380008DE1C /* IMAVideoSampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IMAVideoSampleUITests.m; sourceTree = "<group>"; };
 		96ED0CC31C7495380008DE1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6FD86526B74C9827114E602 /* Pods-IMAVideoSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSample/Pods-IMAVideoSample.release.xcconfig"; sourceTree = "<group>"; };
+		D6CBD7EF5C0566E239F867C8 /* Pods-IMAVideoSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSample/Pods-IMAVideoSample.debug.xcconfig"; sourceTree = "<group>"; };
+		FD20BCAA2AFB95675DF34B26 /* Pods-IMAVideoSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMAVideoSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMAVideoSampleTests/Pods-IMAVideoSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E81FAE69794F1D4E3752DA99 /* libPods-IMAVideoSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A01EE0143A406AD73465C821 /* libPods-IMAVideoSampleTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6905C98A380E887D0AD5CC2 /* libPods-IMAVideoSampleUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F51106F67D834501F2E5021 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58BA910124C09FD6DAFBAD56 /* libPods-IMAVideoSample.a */,
+				39571B9577ECBB402199D555 /* libPods-IMAVideoSampleTests.a */,
+				6917D92602D615BE4293A68D /* libPods-IMAVideoSampleUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		96ED0C901C7495380008DE1C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				96ED0CB51C7495380008DE1C /* IMAVideoSampleTests */,
 				96ED0CC01C7495380008DE1C /* IMAVideoSampleUITests */,
 				96ED0C9A1C7495380008DE1C /* Products */,
+				E75B2E0B5BCB0406E79B66DA /* Pods */,
+				8F51106F67D834501F2E5021 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +167,19 @@
 			path = IMAVideoSampleUITests;
 			sourceTree = "<group>";
 		};
+		E75B2E0B5BCB0406E79B66DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6CBD7EF5C0566E239F867C8 /* Pods-IMAVideoSample.debug.xcconfig */,
+				A6FD86526B74C9827114E602 /* Pods-IMAVideoSample.release.xcconfig */,
+				5AF8C7058167C6CD172EB597 /* Pods-IMAVideoSampleTests.debug.xcconfig */,
+				FD20BCAA2AFB95675DF34B26 /* Pods-IMAVideoSampleTests.release.xcconfig */,
+				7277ED09D43DF69643D61C3E /* Pods-IMAVideoSampleUITests.debug.xcconfig */,
+				2BDEBF1DDC46969BAAF4DF97 /* Pods-IMAVideoSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ED0CC61C7495380008DE1C /* Build configuration list for PBXNativeTarget "IMAVideoSample" */;
 			buildPhases = (
+				8EA1A38433001AC592685169 /* Check Pods Manifest.lock */,
 				96ED0C951C7495380008DE1C /* Sources */,
 				96ED0C961C7495380008DE1C /* Frameworks */,
 				96ED0C971C7495380008DE1C /* Resources */,
+				003B347A906F93E5B0E73362 /* Embed Pods Frameworks */,
+				151F4E03F3B3C953A9FCBECD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ED0CC91C7495380008DE1C /* Build configuration list for PBXNativeTarget "IMAVideoSampleTests" */;
 			buildPhases = (
+				AD9AB80251FBA46E1955B73D /* Check Pods Manifest.lock */,
 				96ED0CAE1C7495380008DE1C /* Sources */,
 				96ED0CAF1C7495380008DE1C /* Frameworks */,
 				96ED0CB01C7495380008DE1C /* Resources */,
+				BD6B08C18D324E9FCA75AD60 /* Embed Pods Frameworks */,
+				A62CD199C2C8E77F6CE4609E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96ED0CCC1C7495380008DE1C /* Build configuration list for PBXNativeTarget "IMAVideoSampleUITests" */;
 			buildPhases = (
+				06811C126A582950D4197094 /* Check Pods Manifest.lock */,
 				96ED0CB91C7495380008DE1C /* Sources */,
 				96ED0CBA1C7495380008DE1C /* Frameworks */,
 				96ED0CBB1C7495380008DE1C /* Resources */,
+				C3E3BE30D5406310C423E7BF /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,6 +313,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003B347A906F93E5B0E73362 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAVideoSample/Pods-IMAVideoSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		06811C126A582950D4197094 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		151F4E03F3B3C953A9FCBECD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAVideoSample/Pods-IMAVideoSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EA1A38433001AC592685169 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A62CD199C2C8E77F6CE4609E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAVideoSampleTests/Pods-IMAVideoSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9AB80251FBA46E1955B73D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD6B08C18D324E9FCA75AD60 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAVideoSampleTests/Pods-IMAVideoSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3E3BE30D5406310C423E7BF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMAVideoSampleUITests/Pods-IMAVideoSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		96ED0C951C7495380008DE1C /* Sources */ = {
@@ -412,6 +583,7 @@
 		};
 		96ED0CC71C7495380008DE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6CBD7EF5C0566E239F867C8 /* Pods-IMAVideoSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -424,6 +596,7 @@
 		};
 		96ED0CC81C7495380008DE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FD86526B74C9827114E602 /* Pods-IMAVideoSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -436,6 +609,7 @@
 		};
 		96ED0CCA1C7495380008DE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AF8C7058167C6CD172EB597 /* Pods-IMAVideoSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IMAVideoSampleTests/Info.plist;
@@ -448,6 +622,7 @@
 		};
 		96ED0CCB1C7495380008DE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD20BCAA2AFB95675DF34B26 /* Pods-IMAVideoSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = IMAVideoSampleTests/Info.plist;
@@ -460,6 +635,7 @@
 		};
 		96ED0CCD1C7495380008DE1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7277ED09D43DF69643D61C3E /* Pods-IMAVideoSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IMAVideoSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +648,7 @@
 		};
 		96ED0CCE1C7495380008DE1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BDEBF1DDC46969BAAF4DF97 /* Pods-IMAVideoSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = IMAVideoSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -501,6 +678,7 @@
 				96ED0CC81C7495380008DE1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96ED0CC91C7495380008DE1C /* Build configuration list for PBXNativeTarget "IMAVideoSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +687,7 @@
 				96ED0CCB1C7495380008DE1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96ED0CCC1C7495380008DE1C /* Build configuration list for PBXNativeTarget "IMAVideoSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +696,7 @@
 				96ED0CCE1C7495380008DE1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
